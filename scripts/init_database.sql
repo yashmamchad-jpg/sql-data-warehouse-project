@@ -3,8 +3,15 @@
 -- The script sets-up three schemas Bronze, Silver, Gold.
 
 
-create database DATAWAREHOUSE;
-use DATAWAREHOUSE;
-create schema Bronze;
-create schema Silver;
-create schema Gold;
+CREATE DATABASE DATAWAREHOUSE;
+GO
+
+USE DATAWAREHOUSE;
+GO
+
+CREATE SCHEMA Bronze;
+GO
+CREATE SCHEMA Silver;
+GO
+CREATE SCHEMA Gold;
+GO
